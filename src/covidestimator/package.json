@@ -19,7 +19,7 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "covidestimator"
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
