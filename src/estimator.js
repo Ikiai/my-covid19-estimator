@@ -7,7 +7,7 @@ const covid19ImpactEstimator = (data) => {
   } else if (time == 'years') {
     var factor = (data.timeToElapse * 360) / 3;
   } else {
-    console.log('error');
+    return 'error';
   }
 
   const impact = {};
